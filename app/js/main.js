@@ -57,7 +57,7 @@ function selectAnswer(e) {
 
 function showScore() {
     resetState();
-    questionElement.innerHTML = `You are scored ${score} out of ${questions.length} !`;
+    questionElement.innerHTML = `Congratulations your scored ${score} out of ${questions.length} !`;
     nextButton.innerHTML= "Play Again"
     nextButton.style.display = "block";
 };
